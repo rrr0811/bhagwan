@@ -1,0 +1,42 @@
+	<html>
+  <head>
+    <title>Popular Biryani</title>
+  </head>
+
+  <body>
+    <form>
+       <div style="height:100%; background-image: url(https://images.pexels.com/photos/920570/pexels-photo-920570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
+        <div style="height:20%;"></div>
+        <span>""</span><span>""</span><span>""</span><span>""</span><span>""</span><span>""</span>
+        <button type="button" style="background-color: #be6969; 
+        border-radius: 6px;
+        font-size: 20px; width: 332px;
+        line-height: 48px; font-family: 'Lucida Handwriting',cursive;
+        color: azure; text-align: center;" onclick="open_win()">
+        Click   Here </button>
+     </div>
+    </form>
+  </body>
+  <script type="text/javascript">
+    function open_win() {
+      var frsWin = window.open("https://meghanafoods.co.in/", "FIRST", "windowFeatures");
+      frsWin.resizeBy(325 ,400);
+      frsWin.moveTo(40,400);
+      setTimeout(function () {
+        secWin = window.open("https://www.hyderabadihouse.nz/", "SECOND", "windowFeatures");
+        secWin.resizeBy(325 ,400);
+        secWin.moveTo(360,400);
+      }, 500);
+      setTimeout(function () {
+        thirWin = window.open("http://nandhanarestaurants.com/", "THIRD", "windowFeatures");
+        thirWin.resizeBy(325 ,400);
+        thirWin.moveTo(680,400);
+      }, 500);
+      setTimeout(function () {
+        thirWin = window.open("https://www.hotelempire.in/", "FOURTH", "windowFeatures");
+        thirWin.resizeBy(325 ,400);
+        thirWin.moveTo(1000,400);
+      }, 500);
+    }
+  </script>
+</html>
